@@ -1,0 +1,15 @@
+.customize-control-radio .image-radio-row {
+    margin-left: 0;
+}
+
+.image-radio-row input[type="radio"] {
+    display: none;
+}
+
+.image-radio-row label img {
+    border: 2px solid #d3d3d3;
+}
+
+.image-radio-row input[type="radio"]:checked + label img {
+    border-color: #0073aa;
+}
